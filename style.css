@@ -1,0 +1,59 @@
+body{
+    text-align: center  ;
+    background-color:  rgb(60,52,92);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    text-decoration: dashed;
+    background-color: #eda28a;
+}
+input{
+    border-radius:15px;
+    height: 5em;
+    width: 40em;
+    box-shadow:2px 2px black;
+}
+textarea{
+    display:inline;
+    border-radius:15px;
+    box-shadow:2px 2px black;
+    height: 5em;
+    width: 40em;
+}
+.add{
+    height:40px;
+    width:60px;
+    background-color: #d6542c;
+    color:antiquewhite;
+    border-radius:15px;
+    box-shadow:2px 2px black;
+}
+p{
+    color:white;
+    font-size: 92%;
+}
+.del{
+    margin:2px;
+    height:40px;
+    width:60px;
+    background-color:#eda28a;
+    color:rgb(10, 10, 10);
+    border-radius:15px;
+    box-shadow:2px 2px black;
+
+}
+.todobox{
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    margin: auto;
+    text-align: center;
+      height:600px;
+    background-color: whitesmoke;
+    border:1px solid rgba(255,255,255,0.18);
+    width:800px;
+    border-radius:20px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    overflow: scroll;
+}
